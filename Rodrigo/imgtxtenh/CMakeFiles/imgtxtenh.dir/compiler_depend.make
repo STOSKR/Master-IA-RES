@@ -308,6 +308,559 @@ CMakeFiles/imgtxtenh.dir/src/imgio_magick.c.o: src/imgio_magick.c \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
+CMakeFiles/imgtxtenh.dir/src/imgtxtenh.c.o: src/imgtxtenh.c \
+  src/htrprep.h \
+  src/imgconv.h \
+  src/imgio_magick.h \
+  src/intimg.h \
+  src/log.h \
+  src/mem.h \
+  src/objs.h \
+  /usr/include/ImageMagick-6/magick/MagickCore.h \
+  /usr/include/ImageMagick-6/magick/animate.h \
+  /usr/include/ImageMagick-6/magick/annotate.h \
+  /usr/include/ImageMagick-6/magick/artifact.h \
+  /usr/include/ImageMagick-6/magick/attribute.h \
+  /usr/include/ImageMagick-6/magick/blob.h \
+  /usr/include/ImageMagick-6/magick/cache-view.h \
+  /usr/include/ImageMagick-6/magick/cache.h \
+  /usr/include/ImageMagick-6/magick/channel.h \
+  /usr/include/ImageMagick-6/magick/cipher.h \
+  /usr/include/ImageMagick-6/magick/client.h \
+  /usr/include/ImageMagick-6/magick/coder.h \
+  /usr/include/ImageMagick-6/magick/color.h \
+  /usr/include/ImageMagick-6/magick/colormap.h \
+  /usr/include/ImageMagick-6/magick/colorspace.h \
+  /usr/include/ImageMagick-6/magick/compare.h \
+  /usr/include/ImageMagick-6/magick/composite.h \
+  /usr/include/ImageMagick-6/magick/compress.h \
+  /usr/include/ImageMagick-6/magick/configure.h \
+  /usr/include/ImageMagick-6/magick/constitute.h \
+  /usr/include/ImageMagick-6/magick/decorate.h \
+  /usr/include/ImageMagick-6/magick/delegate.h \
+  /usr/include/ImageMagick-6/magick/deprecate.h \
+  /usr/include/ImageMagick-6/magick/display.h \
+  /usr/include/ImageMagick-6/magick/distort.h \
+  /usr/include/ImageMagick-6/magick/distribute-cache.h \
+  /usr/include/ImageMagick-6/magick/draw.h \
+  /usr/include/ImageMagick-6/magick/effect.h \
+  /usr/include/ImageMagick-6/magick/enhance.h \
+  /usr/include/ImageMagick-6/magick/exception.h \
+  /usr/include/ImageMagick-6/magick/feature.h \
+  /usr/include/ImageMagick-6/magick/fourier.h \
+  /usr/include/ImageMagick-6/magick/fx.h \
+  /usr/include/ImageMagick-6/magick/gem.h \
+  /usr/include/ImageMagick-6/magick/geometry.h \
+  /usr/include/ImageMagick-6/magick/hashmap.h \
+  /usr/include/ImageMagick-6/magick/histogram.h \
+  /usr/include/ImageMagick-6/magick/identify.h \
+  /usr/include/ImageMagick-6/magick/image-view.h \
+  /usr/include/ImageMagick-6/magick/image.h \
+  /usr/include/ImageMagick-6/magick/layer.h \
+  /usr/include/ImageMagick-6/magick/list.h \
+  /usr/include/ImageMagick-6/magick/locale_.h \
+  /usr/include/ImageMagick-6/magick/log.h \
+  /usr/include/ImageMagick-6/magick/magic.h \
+  /usr/include/ImageMagick-6/magick/magick-config.h \
+  /usr/include/ImageMagick-6/magick/magick-type.h \
+  /usr/include/ImageMagick-6/magick/magick.h \
+  /usr/include/ImageMagick-6/magick/matrix.h \
+  /usr/include/ImageMagick-6/magick/memory_.h \
+  /usr/include/ImageMagick-6/magick/method-attribute.h \
+  /usr/include/ImageMagick-6/magick/mime.h \
+  /usr/include/ImageMagick-6/magick/module.h \
+  /usr/include/ImageMagick-6/magick/monitor.h \
+  /usr/include/ImageMagick-6/magick/montage.h \
+  /usr/include/ImageMagick-6/magick/morphology.h \
+  /usr/include/ImageMagick-6/magick/opencl.h \
+  /usr/include/ImageMagick-6/magick/option.h \
+  /usr/include/ImageMagick-6/magick/paint.h \
+  /usr/include/ImageMagick-6/magick/pixel-accessor.h \
+  /usr/include/ImageMagick-6/magick/pixel.h \
+  /usr/include/ImageMagick-6/magick/policy.h \
+  /usr/include/ImageMagick-6/magick/prepress.h \
+  /usr/include/ImageMagick-6/magick/profile.h \
+  /usr/include/ImageMagick-6/magick/property.h \
+  /usr/include/ImageMagick-6/magick/quantize.h \
+  /usr/include/ImageMagick-6/magick/quantum.h \
+  /usr/include/ImageMagick-6/magick/random_.h \
+  /usr/include/ImageMagick-6/magick/registry.h \
+  /usr/include/ImageMagick-6/magick/resample.h \
+  /usr/include/ImageMagick-6/magick/resize.h \
+  /usr/include/ImageMagick-6/magick/resource_.h \
+  /usr/include/ImageMagick-6/magick/segment.h \
+  /usr/include/ImageMagick-6/magick/semaphore.h \
+  /usr/include/ImageMagick-6/magick/shear.h \
+  /usr/include/ImageMagick-6/magick/signature.h \
+  /usr/include/ImageMagick-6/magick/splay-tree.h \
+  /usr/include/ImageMagick-6/magick/static.h \
+  /usr/include/ImageMagick-6/magick/statistic.h \
+  /usr/include/ImageMagick-6/magick/stream.h \
+  /usr/include/ImageMagick-6/magick/string_.h \
+  /usr/include/ImageMagick-6/magick/threshold.h \
+  /usr/include/ImageMagick-6/magick/timer.h \
+  /usr/include/ImageMagick-6/magick/token.h \
+  /usr/include/ImageMagick-6/magick/transform.h \
+  /usr/include/ImageMagick-6/magick/type.h \
+  /usr/include/ImageMagick-6/magick/utility.h \
+  /usr/include/ImageMagick-6/magick/version.h \
+  /usr/include/ImageMagick-6/magick/vision.h \
+  /usr/include/ImageMagick-6/magick/visual-effects.h \
+  /usr/include/ImageMagick-6/magick/xml-tree.h \
+  /usr/include/ImageMagick-6/magick/xwindow.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/time.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/ImageMagick-6/magick/magick-baseconfig.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
+
+CMakeFiles/imgtxtenh.dir/src/intimg.c.o: src/intimg.c \
+  src/intimg.h \
+  src/mem.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/imgtxtenh.dir/src/log.c.o: src/log.c \
+  src/log.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/imgtxtenh.dir/src/mem.c.o: src/mem.c \
+  src/mem.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/imgtxtenh.dir/src/objs.c.o: src/objs.c \
+  src/mem.h \
+  src/objs.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+imgtxtenh: /lib/x86_64-linux-gnu/libX11.so.6 \
+  /lib/x86_64-linux-gnu/libXau.so.6 \
+  /lib/x86_64-linux-gnu/libXdmcp.so.6 \
+  /lib/x86_64-linux-gnu/libXext.so.6 \
+  /lib/x86_64-linux-gnu/libbrotlicommon.so.1 \
+  /lib/x86_64-linux-gnu/libbrotlidec.so.1 \
+  /lib/x86_64-linux-gnu/libbsd.so.0 \
+  /lib/x86_64-linux-gnu/libbz2.so.1.0 \
+  /lib/x86_64-linux-gnu/libc.so.6 \
+  /lib/x86_64-linux-gnu/libexpat.so.1 \
+  /lib/x86_64-linux-gnu/libfftw3.so.3 \
+  /lib/x86_64-linux-gnu/libfontconfig.so.1 \
+  /lib/x86_64-linux-gnu/libfreetype.so.6 \
+  /lib/x86_64-linux-gnu/libglib-2.0.so.0 \
+  /lib/x86_64-linux-gnu/libgomp.so.1 \
+  /lib/x86_64-linux-gnu/libicudata.so.74 \
+  /lib/x86_64-linux-gnu/libicuuc.so.74 \
+  /lib/x86_64-linux-gnu/liblcms2.so.2 \
+  /lib/x86_64-linux-gnu/liblqr-1.so.0 \
+  /lib/x86_64-linux-gnu/libltdl.so.7 \
+  /lib/x86_64-linux-gnu/liblzma.so.5 \
+  /lib/x86_64-linux-gnu/libm.so.6 \
+  /lib/x86_64-linux-gnu/libmd.so.0 \
+  /lib/x86_64-linux-gnu/libmvec.so.1 \
+  /lib/x86_64-linux-gnu/libpcre2-8.so.0 \
+  /lib/x86_64-linux-gnu/libpng16.so.16 \
+  /lib/x86_64-linux-gnu/libstdc++.so.6 \
+  /lib/x86_64-linux-gnu/libxcb.so.1 \
+  /lib/x86_64-linux-gnu/libxml2.so.2 \
+  /lib/x86_64-linux-gnu/libz.so.1 \
+  /lib64/ld-linux-x86-64.so.2 \
+  /usr/lib/x86_64-linux-gnu/Scrt1.o \
+  /usr/lib/x86_64-linux-gnu/crti.o \
+  /usr/lib/x86_64-linux-gnu/crtn.o \
+  /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a \
+  /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so \
+  /usr/lib/x86_64-linux-gnu/libMagickCore-6.Q16.so \
+  /usr/lib/x86_64-linux-gnu/libc.so \
+  /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
+  /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 \
+  /usr/lib/x86_64-linux-gnu/libm.so \
+  CMakeFiles/imgtxtenh.dir/src/htrprep.c.o \
+  CMakeFiles/imgtxtenh.dir/src/imgconv.c.o \
+  CMakeFiles/imgtxtenh.dir/src/imgio_magick.c.o \
+  CMakeFiles/imgtxtenh.dir/src/imgtxtenh.c.o \
+  CMakeFiles/imgtxtenh.dir/src/intimg.c.o \
+  CMakeFiles/imgtxtenh.dir/src/log.c.o \
+  CMakeFiles/imgtxtenh.dir/src/mem.c.o \
+  CMakeFiles/imgtxtenh.dir/src/objs.c.o
+
+
+CMakeFiles/imgtxtenh.dir/src/log.c.o:
+
+CMakeFiles/imgtxtenh.dir/src/intimg.c.o:
+
+CMakeFiles/imgtxtenh.dir/src/imgtxtenh.c.o:
+
+/usr/lib/x86_64-linux-gnu/libm.so:
+
+/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
+
+CMakeFiles/imgtxtenh.dir/src/htrprep.c.o:
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a:
+
+/usr/lib/x86_64-linux-gnu/libMagickCore-6.Q16.so:
+
+/usr/lib/x86_64-linux-gnu/crtn.o:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so:
+
+/usr/lib/x86_64-linux-gnu/crti.o:
+
+/usr/lib/x86_64-linux-gnu/Scrt1.o:
+
+/lib64/ld-linux-x86-64.so.2:
+
+/lib/x86_64-linux-gnu/libmvec.so.1:
+
+/lib/x86_64-linux-gnu/libxml2.so.2:
+
+/lib/x86_64-linux-gnu/libm.so.6:
+
+/lib/x86_64-linux-gnu/liblzma.so.5:
+
+/lib/x86_64-linux-gnu/libltdl.so.7:
+
+/lib/x86_64-linux-gnu/liblqr-1.so.0:
+
+/lib/x86_64-linux-gnu/liblcms2.so.2:
+
+/lib/x86_64-linux-gnu/libicudata.so.74:
+
+/lib/x86_64-linux-gnu/libgomp.so.1:
+
+/lib/x86_64-linux-gnu/libfreetype.so.6:
+
+/lib/x86_64-linux-gnu/libfontconfig.so.1:
+
+/lib/x86_64-linux-gnu/libfftw3.so.3:
+
+/lib/x86_64-linux-gnu/libexpat.so.1:
+
+/lib/x86_64-linux-gnu/libmd.so.0:
+
+/lib/x86_64-linux-gnu/libc.so.6:
+
+/lib/x86_64-linux-gnu/libbsd.so.0:
+
+/lib/x86_64-linux-gnu/libbrotlidec.so.1:
+
+/lib/x86_64-linux-gnu/libbrotlicommon.so.1:
+
+/lib/x86_64-linux-gnu/libxcb.so.1:
+
+/lib/x86_64-linux-gnu/libXau.so.6:
+
+/lib/x86_64-linux-gnu/libX11.so.6:
+
+src/mem.c:
+
+src/log.c:
+
+src/intimg.c:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+src/objs.h:
+
+src/log.h:
+
+src/intimg.h:
+
+src/imgtxtenh.c:
+
+CMakeFiles/imgtxtenh.dir/src/imgconv.c.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
@@ -319,11 +872,15 @@ CMakeFiles/imgtxtenh.dir/src/imgio_magick.c.o: src/imgio_magick.c \
 
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
+/usr/include/unistd.h:
+
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/x86_64-linux-gnu/ImageMagick-6/magick/magick-baseconfig.h:
 
@@ -346,6 +903,8 @@ src/imgconv.h:
 /usr/include/ImageMagick-6/magick/locale_.h:
 
 /usr/include/ImageMagick-6/magick/attribute.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -377,6 +936,8 @@ src/imgconv.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
+src/objs.c:
+
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/ImageMagick-6/magick/log.h:
@@ -395,6 +956,8 @@ src/imgconv.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
+/lib/x86_64-linux-gnu/libpng16.so.16:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
@@ -402,6 +965,8 @@ src/imgconv.h:
 /usr/include/string.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/lib/x86_64-linux-gnu/libz.so.1:
 
 /usr/include/ImageMagick-6/magick/magick-config.h:
 
@@ -422,6 +987,8 @@ src/imgconv.h:
 src/mem.h:
 
 /usr/include/ImageMagick-6/magick/composite.h:
+
+/lib/x86_64-linux-gnu/libglib-2.0.so.0:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
@@ -450,6 +1017,10 @@ src/mem.h:
 /usr/include/ImageMagick-6/magick/static.h:
 
 src/htrprep.c:
+
+CMakeFiles/imgtxtenh.dir/src/imgio_magick.c.o:
+
+/lib/x86_64-linux-gnu/libicuuc.so.74:
 
 /usr/include/features-time64.h:
 
@@ -481,7 +1052,13 @@ src/htrprep.h:
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o:
+
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/ImageMagick-6/magick/artifact.h:
 
@@ -521,6 +1098,8 @@ src/htrprep.h:
 
 /usr/include/ImageMagick-6/magick/enhance.h:
 
+CMakeFiles/imgtxtenh.dir/src/objs.c.o:
+
 /usr/include/ImageMagick-6/magick/image.h:
 
 /usr/include/ImageMagick-6/magick/coder.h:
@@ -528,6 +1107,8 @@ src/htrprep.h:
 /usr/include/ImageMagick-6/magick/color.h:
 
 /usr/include/ImageMagick-6/magick/utility.h:
+
+/lib/x86_64-linux-gnu/libXdmcp.so.6:
 
 /usr/include/ImageMagick-6/magick/colorspace.h:
 
@@ -538,6 +1119,8 @@ src/imgconv.c:
 /usr/include/ImageMagick-6/magick/magic.h:
 
 /usr/include/ImageMagick-6/magick/quantum.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/ImageMagick-6/magick/resize.h:
 
@@ -557,6 +1140,10 @@ src/imgconv.c:
 
 /usr/include/ImageMagick-6/magick/distribute-cache.h:
 
+/lib/x86_64-linux-gnu/libpcre2-8.so.0:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
 /usr/include/ImageMagick-6/magick/decorate.h:
 
 /usr/include/time.h:
@@ -568,6 +1155,8 @@ src/imgconv.c:
 /usr/include/ImageMagick-6/magick/delegate.h:
 
 /usr/include/ImageMagick-6/magick/deprecate.h:
+
+/lib/x86_64-linux-gnu/libXext.so.6:
 
 /usr/include/ImageMagick-6/magick/display.h:
 
@@ -594,6 +1183,8 @@ src/imgconv.c:
 /usr/include/ImageMagick-6/magick/semaphore.h:
 
 /usr/include/ImageMagick-6/magick/stream.h:
+
+/usr/lib/x86_64-linux-gnu/libc.so:
 
 /usr/include/ImageMagick-6/magick/hashmap.h:
 
@@ -641,9 +1232,13 @@ src/imgio_magick.c:
 
 /usr/include/ImageMagick-6/magick/pixel.h:
 
+/lib/x86_64-linux-gnu/libstdc++.so.6:
+
 /usr/include/ImageMagick-6/magick/resource_.h:
 
 /usr/include/ImageMagick-6/magick/policy.h:
+
+/lib/x86_64-linux-gnu/libbz2.so.1.0:
 
 /usr/include/ImageMagick-6/magick/prepress.h:
 
@@ -658,6 +1253,8 @@ src/imgio_magick.c:
 /usr/include/ImageMagick-6/magick/MagickCore.h:
 
 /usr/include/ImageMagick-6/magick/token.h:
+
+CMakeFiles/imgtxtenh.dir/src/mem.c.o:
 
 /usr/include/ImageMagick-6/magick/opencl.h:
 
