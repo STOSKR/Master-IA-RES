@@ -1,0 +1,8 @@
+/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/CMakeFiles/imgtxtenh.dir
+/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/CMakeFiles/realclean.dir
+/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/CMakeFiles/edit_cache.dir
+/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/CMakeFiles/rebuild_cache.dir
+/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/CMakeFiles/list_install_components.dir
+/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/CMakeFiles/install.dir
+/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/CMakeFiles/install/local.dir
+/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/CMakeFiles/install/strip.dir

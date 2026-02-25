@@ -1,4 +1,4 @@
-cmake_minimum_required( VERSION 2.8.4 )
+cmake_minimum_required( VERSION 3.10 )
 project( imgtxtenh )
 set( pname imgtxtenh )
 set( pversion "0.0.248" )
