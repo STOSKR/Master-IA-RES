@@ -1,10 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
-    <Metadata>
-        <Creator>Moises Pastor </Creator>
-        <Created>2018-02-13</Created>
-        <LastChange>2018-02-13T15:51:52</LastChange>
-    </Metadata>
-    <Page imageFilename="Rodrigo_00540.jpg" imageWidth="872" imageHeight="1375">
-    </Page>
+	<Metadata>
+		<Creator>Moises Pastor </Creator>
+		<Created>2018-02-13</Created>
+		<LastChange>2018-02-13T15:51:52</LastChange>
+	</Metadata>
+	<Page imageFilename="Rodrigo_00540.jpg" imageWidth="872" imageHeight="1375">
+		<TextRegion id="r0">
+			<Coords points="0,0 871,0 871,1374 0,1374" />
+			<TextLine id="r0_l00">
+				<Coords points="" />
+				<Baseline points="109,104 183,100 256,104 330,108 404,110 477,105 550,106 624,105 697,108 777,105" />
+			</TextLine>
+			<TextLine id="r0_l01">
+				<Coords points="" />
+				<Baseline points="166,151 232,154 297,154 363,159 428,161 494,160 560,162 626,163 692,164 762,162" />
+			</TextLine>
+			<TextLine id="r0_l02">
+				<Coords points="" />
+				<Baseline points="114,204 184,204 253,206 323,210 393,211 462,216 532,216 602,217 672,218 748,215" />
+			</TextLine>
+			<TextLine id="r0_l03">
+				<Coords points="" />
+				<Baseline points="110,256 184,258 256,259 329,262 403,264 477,265 551,267 624,271 697,271 771,270" />
+			</TextLine>
+			<TextLine id="r0_l04">
+				<Coords points="" />
+				<Baseline points="113,307 185,309 256,312 328,314 400,316 471,318 543,319 615,319 686,322 767,321" />
+			</TextLine>
+			<TextLine id="r0_l05">
+				<Coords points="" />
+				<Baseline points="111,362 183,361 256,361 329,361 402,363 474,366 547,369 620,370 693,371 766,370" />
+			</TextLine>
+			<TextLine id="r0_l06">
+				<Coords points="" />
+				<Baseline points="136,411 200,412 264,414 327,415 391,416 455,417 519,417 583,418 646,422 710,421" />
+			</TextLine>
+			<TextLine id="r0_l07">
+				<Coords points="" />
+				<Baseline points="119,466 192,464 264,464 337,466 410,465 482,466 555,469 628,472 701,472 778,471" />
+			</TextLine>
+			<TextLine id="r0_l08">
+				<Coords points="" />
+				<Baseline points="157,514 204,515 250,514 297,517 344,515 391,519 436,515 483,516 530,519 582,518" />
+			</TextLine>
+			<TextLine id="r0_l09">
+				<Coords points="" />
+				<Baseline points="282,567 326,567 370,566 414,565 458,566 502,567 546,566 589,566 633,568 682,569" />
+			</TextLine>
+			<TextLine id="r0_l10">
+				<Coords points="" />
+				<Baseline points="279,614 320,615 361,615 402,614 443,615 483,616 524,617 565,615 606,617 648,615" />
+			</TextLine>
+			<TextLine id="r0_l11">
+				<Coords points="" />
+				<Baseline points="294,667 331,665 368,665 405,666 442,666 479,667 516,666 553,667 590,669 629,666" />
+			</TextLine>
+			<TextLine id="r0_l12">
+				<Coords points="" />
+				<Baseline points="241,722 302,721 362,719 423,720 484,723 545,722 606,721 667,721 727,720 792,714" />
+			</TextLine>
+			<TextLine id="r0_l13">
+				<Coords points="" />
+				<Baseline points="242,768 301,768 359,770 418,772 477,771 536,772 594,772 653,771 712,769 775,768" />
+			</TextLine>
+			<TextLine id="r0_l14">
+				<Coords points="" />
+				<Baseline points="129,819 202,818 275,819 347,820 420,819 493,823 566,824 638,821 711,821 784,821" />
+			</TextLine>
+			<TextLine id="r0_l15">
+				<Coords points="" />
+				<Baseline points="108,867 182,867 255,868 329,867 403,869 476,869 550,870 624,870 698,869 777,870" />
+			</TextLine>
+			<TextLine id="r0_l16">
+				<Coords points="" />
+				<Baseline points="115,920 190,914 265,914 339,916 414,919 488,918 563,917 638,919 713,918 795,915" />
+			</TextLine>
+			<TextLine id="r0_l17">
+				<Coords points="" />
+				<Baseline points="118,972 191,968 265,971 339,968 413,969 486,971 560,972 634,969 708,971 783,970" />
+			</TextLine>
+			<TextLine id="r0_l18">
+				<Coords points="" />
+				<Baseline points="149,1022 221,1018 291,1021 363,1020 435,1020 506,1024 578,1022 650,1021 722,1023 794,1017" />
+			</TextLine>
+			<TextLine id="r0_l19">
+				<Coords points="" />
+				<Baseline points="112,1072 187,1070 261,1070 336,1069 411,1070 486,1069 560,1073 635,1073 710,1073 788,1069" />
+			</TextLine>
+			<TextLine id="r0_l20">
+				<Coords points="" />
+				<Baseline points="115,1123 189,1122 263,1121 336,1121 410,1124 483,1119 556,1122 630,1121 704,1121 782,1123" />
+			</TextLine>
+			<TextLine id="r0_l21">
+				<Coords points="" />
+				<Baseline points="173,1170 241,1171 309,1170 376,1170 444,1170 512,1170 580,1172 648,1172 716,1170 791,1170" />
+			</TextLine>
+			<TextLine id="r0_l22">
+				<Coords points="" />
+				<Baseline points="130,1222 204,1220 278,1222 352,1221 426,1219 499,1220 573,1221 647,1223 721,1224 801,1218" />
+			</TextLine>
+			<TextLine id="r0_l23">
+				<Coords points="" />
+				<Baseline points="136,1268 210,1267 284,1268 357,1265 431,1264 505,1266 578,1271 652,1270 726,1272 800,1272" />
+			</TextLine>
+		</TextRegion>
+	</Page>
 </PcGts>
