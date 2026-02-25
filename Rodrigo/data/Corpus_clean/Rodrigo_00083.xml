@@ -3,14 +3,14 @@
     <Metadata>
         <Creator>Moises Pastor </Creator>
         <Created>2018-02-13</Created>
-        <LastChange>2026-02-25T12:24:16</LastChange>
+        <LastChange>2026-02-25T13:36:18</LastChange>
     </Metadata>
     <Page imageFilename="Rodrigo_00083.jpg" imageWidth="848" imageHeight="1375">
         <TextRegion id="r0">
             <Coords points="0,0 847,0 847,1374 0,1374"/>
             <TextLine id="r0_l00">
                 <Coords points="0,0"/>
-                <Baseline points="145,70 212,69 279,71 345,70 412,70 479,73 546,73 613,72 679,71 751,70"/>
+                <Baseline points="90,73 145,70 212,69 279,71 345,70 412,70 479,73 546,73 613,72 679,71 751,70"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
@@ -156,20 +156,27 @@
                 </TextEquiv>
             </TextLine>
             <TextLine id="r0_l21">
-                <Coords points="0,0"/>
-                <Baseline points="226,1186 283,1184 340,1183 396,1184 453,1186 509,1184 566,1181 623,1184 679,1186 738,1191"/>
+                <Coords points="24,0"/>
+                <Baseline points="230,1131 316,1135"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r0_l22">
                 <Coords points="0,0"/>
-                <Baseline points="202,1236 265,1235 328,1236 391,1235 453,1233 516,1233 578,1234 641,1234 703,1238 767,1237"/>
+                <Baseline points="226,1186 283,1184 340,1183 396,1184 453,1186 509,1184 566,1181 623,1184 679,1186 738,1191"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r0_l23">
+                <Coords points="0,0"/>
+                <Baseline points="202,1236 265,1235 328,1236 391,1235 453,1233 516,1233 578,1234 641,1234 703,1238 767,1237"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r0_l24">
                 <Coords points="0,0"/>
                 <Baseline points="653,1299 668,1297 683,1294 697,1292 712,1292 727,1294 742,1293 757,1293 772,1295 794,1298"/>
                 <TextEquiv>

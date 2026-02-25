@@ -3,7 +3,7 @@
     <Metadata>
         <Creator>Moises Pastor </Creator>
         <Created>2018-02-13</Created>
-        <LastChange>2026-02-25T12:24:13</LastChange>
+        <LastChange>2026-02-25T13:30:47</LastChange>
     </Metadata>
     <Page imageFilename="Rodrigo_00258.jpg" imageWidth="895" imageHeight="1375">
         <TextRegion id="r0">
@@ -171,14 +171,7 @@
             </TextLine>
             <TextLine id="r0_l23">
                 <Coords points="0,0"/>
-                <Baseline points="144,1257 205,1258 266,1257 327,1257 387,1258 448,1252 509,1255 569,1258 630,1258 693,1257"/>
-                <TextEquiv>
-                    <Unicode></Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r0_l24">
-                <Coords points="0,0"/>
-                <Baseline points="503,1298 520,1296 558,1304 590,1305"/>
+                <Baseline points="89,1253 144,1257 205,1258 266,1257 327,1257 387,1258 448,1252 509,1255 569,1258 630,1258 693,1257 770,1257"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>

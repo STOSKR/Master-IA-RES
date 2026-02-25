@@ -1,13 +1,20 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
-	<Metadata>
-		<Creator>Moises Pastor </Creator>
-		<Created>2018-02-13</Created>
-		<LastChange>2018-02-13T15:51:52</LastChange>
-	</Metadata>
-	<Page imageFilename="Rodrigo_00004.jpg" imageWidth="846" imageHeight="1375">
-		<TextRegion id="r0">
-			<Coords points="0,0 845,0 845,1374 0,1374" />
-		</TextRegion>
-	</Page>
+    <Metadata>
+        <Creator>Moises Pastor </Creator>
+        <Created>2018-02-13</Created>
+        <LastChange>2026-02-25T13:37:48</LastChange>
+    </Metadata>
+    <Page imageFilename="Rodrigo_00004.jpg" imageWidth="846" imageHeight="1375">
+        <TextRegion id="r0">
+            <Coords points="0,0 845,0 845,1374 0,1374"/>
+            <TextLine id="r0_l00">
+                <Coords points="24,0"/>
+                <Baseline points="78,517 304,516 545,512 702,520"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
 </PcGts>

@@ -3,7 +3,7 @@
     <Metadata>
         <Creator>Moises Pastor </Creator>
         <Created>2018-02-13</Created>
-        <LastChange>2026-02-25T12:23:38</LastChange>
+        <LastChange>2026-02-25T12:49:40</LastChange>
     </Metadata>
     <Page imageFilename="Rodrigo_00535.jpg" imageWidth="872" imageHeight="1375">
         <TextRegion id="r0">
@@ -31,7 +31,7 @@
             </TextLine>
             <TextLine id="r0_l03">
                 <Coords points="0,0"/>
-                <Baseline points="157,249 224,252 290,254 357,255 424,254 491,257 558,257 625,258 692,258 761,257"/>
+                <Baseline points="98,249 157,249 224,252 290,254 357,255 424,254 491,257 558,257 625,258 692,258 761,257"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
@@ -52,7 +52,7 @@
             </TextLine>
             <TextLine id="r0_l06">
                 <Coords points="0,0"/>
-                <Baseline points="96,399 167,401 238,402 308,406 379,409 450,413 520,413 591,414 662,414 735,412"/>
+                <Baseline points="96,399 167,401 238,402 308,406 379,409 450,413 520,413 591,414 662,414 735,412 779,416"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
@@ -73,7 +73,7 @@
             </TextLine>
             <TextLine id="r0_l09">
                 <Coords points="0,0"/>
-                <Baseline points="123,554 192,554 261,555 330,559 398,563 466,561 535,564 603,564 672,566 744,563"/>
+                <Baseline points="93,554 123,554 192,554 261,555 330,559 398,563 466,561 535,564 603,564 672,566 744,563"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
@@ -94,21 +94,21 @@
             </TextLine>
             <TextLine id="r0_l12">
                 <Coords points="0,0"/>
-                <Baseline points="93,703 165,698 235,704 307,703 379,704 451,705 523,708 594,708 665,709 738,707"/>
+                <Baseline points="93,703 165,698 235,704 307,703 379,704 451,705 523,708 594,708 665,709 738,707 781,709"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r0_l13">
                 <Coords points="0,0"/>
-                <Baseline points="132,748 203,749 273,753 344,754 414,757 485,757 555,759 625,760 696,758 772,760"/>
+                <Baseline points="84,751 132,748 203,749 273,753 344,754 414,757 485,757 555,759 625,760 696,758 772,760"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r0_l14">
                 <Coords points="0,0"/>
-                <Baseline points="125,797 197,801 268,803 340,804 412,806 484,809 556,809 627,811 699,812 778,806"/>
+                <Baseline points="92,795 125,797 197,801 268,803 340,804 412,806 484,809 556,809 627,811 699,812 778,806"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
@@ -163,8 +163,22 @@
                 </TextEquiv>
             </TextLine>
             <TextLine id="r0_l22">
+                <Coords points="24,0"/>
+                <Baseline points="252,1207 375,1201"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r0_l23">
                 <Coords points="0,0"/>
-                <Baseline points="218,1258 276,1258 334,1260 391,1264 448,1263 505,1263 563,1263 621,1263 678,1265 740,1264"/>
+                <Baseline points="218,1258 276,1258 334,1260 391,1264 448,1263 505,1263 563,1263 621,1263 678,1265 740,1264 777,1260"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r0_l24">
+                <Coords points="24,0"/>
+                <Baseline points="691,1329 764,1329"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>

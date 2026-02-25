@@ -3,7 +3,7 @@
     <Metadata>
         <Creator>Moises Pastor </Creator>
         <Created>2018-02-13</Created>
-        <LastChange>2026-02-25T12:23:44</LastChange>
+        <LastChange>2026-02-25T13:03:11</LastChange>
     </Metadata>
     <Page imageFilename="Rodrigo_00772.jpg" imageWidth="851" imageHeight="1375">
         <TextRegion id="r0">
@@ -73,7 +73,7 @@
             </TextLine>
             <TextLine id="r0_l09">
                 <Coords points="0,0"/>
-                <Baseline points="149,570 219,573 289,577 359,577 428,577 498,580 568,583 638,583 707,581 779,580"/>
+                <Baseline points="91,576 149,570 219,573 289,577 359,577 428,577 498,580 568,583 638,583 707,581 779,580"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
@@ -156,15 +156,22 @@
                 </TextEquiv>
             </TextLine>
             <TextLine id="r0_l21">
-                <Coords points="0,0"/>
-                <Baseline points="207,1223 272,1224 337,1223 402,1224 466,1223 531,1224 596,1224 661,1224 726,1222 797,1221"/>
+                <Coords points="24,0"/>
+                <Baseline points="286,1186 378,1183"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r0_l22">
                 <Coords points="0,0"/>
-                <Baseline points="273,1273 329,1272 386,1272 443,1268 499,1267 556,1268 613,1267 670,1270 726,1266 786,1268"/>
+                <Baseline points="207,1223 272,1224 337,1223 402,1224 466,1223 531,1224 596,1224 661,1224 726,1222 797,1221"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r0_l23">
+                <Coords points="0,0"/>
+                <Baseline points="188,1277 273,1273 329,1272 386,1272 443,1268 499,1267 556,1268 613,1267 670,1270 726,1266 786,1268"/>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
