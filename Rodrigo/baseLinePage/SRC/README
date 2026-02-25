@@ -1,0 +1,5 @@
+opencv libraries required
+
+To compile the project must do:
+make
+
