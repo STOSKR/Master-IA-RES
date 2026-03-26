@@ -1,1 +1,5 @@
 res_env/*
+data/Corpus_clean_lines/*
+data/data_test/*
+data/data_train/*
+data/data_val/*
