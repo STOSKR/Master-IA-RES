@@ -1,0 +1,29 @@
+\data\
+ngram 1=2
+ngram 2=0
+ngram 3=0
+ngram 4=0
+ngram 5=0
+ngram 6=0
+ngram 7=0
+ngram 8=0
+
+\1-grams:
+0	<unk>	0
+0	<s>	0
+
+\2-grams:
+
+\3-grams:
+
+\4-grams:
+
+\5-grams:
+
+\6-grams:
+
+\7-grams:
+
+\8-grams:
+
+\end\
