@@ -3,3 +3,16 @@ data/Corpus_clean_lines/*
 data/data_test/*
 data/data_train/*
 data/data_val/*
+
+# Generated data/model artifacts
+data/text/train_words.txt
+models/LM/*.arpa
+models/Optical/*.ark
+models/WFST/*.fst
+models/WFST/*.hmm
+models/WFST/lexicon.txt
+models/WFST/*Map.txt
+results/*.hyp
+tasas.tgz
+tasas/
+SRILM/
