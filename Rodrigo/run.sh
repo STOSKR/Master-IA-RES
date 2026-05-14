@@ -2,8 +2,8 @@
 #SBATCH -p long
 #SBATCH --cpus-per-task=8
 #SBATCH --job-name=htr_train
-#SBATCH --mem=32G
-#SBATCH --gres=shard:6
+#SBATCH --mem=8G
+#SBATCH --gres=shard:1
 #SBATCH -o logs/%j.log
 
 source /opt/miniconda3/etc/profile.d/conda.sh
