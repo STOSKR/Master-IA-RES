@@ -2,3 +2,4 @@ venv/*
 Corpus_clean_lines/*
 Rodrigo/data/
 Rodrigo/results/
+Rodrigo/fastwer/
