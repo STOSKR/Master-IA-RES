@@ -4,7 +4,7 @@ data/data_test/*
 data/data_train/*
 data/data_train_val/*
 data/data_val/*
-
+GPWS/
 # Generated data/model artifacts
 data/text/train_words.txt
 models/LM/*.arpa
