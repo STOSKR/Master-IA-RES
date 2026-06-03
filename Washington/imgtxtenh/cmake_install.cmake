@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh
+# Install script for directory: /mnt/a/Master-IA-RES/Washington/imgtxtenh
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/imgtxtenh"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/imgtxtenh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/a/Master-IA-RES/Washington/imgtxtenh/imgtxtenh")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/imgtxtenh" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/imgtxtenh")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -59,24 +59,24 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/CMakeFiles/imgtxtenh.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/mnt/a/Master-IA-RES/Washington/imgtxtenh/CMakeFiles/imgtxtenh.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man1" TYPE FILE FILES "/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/man/man1/imgtxtenh.1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man1" TYPE FILE FILES "/mnt/a/Master-IA-RES/Washington/imgtxtenh/man/man1/imgtxtenh.1")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/imgtxtenh" TYPE FILE FILES
-    "/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/LICENSE.md"
-    "/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/README.md"
+    "/mnt/a/Master-IA-RES/Washington/imgtxtenh/LICENSE.md"
+    "/mnt/a/Master-IA-RES/Washington/imgtxtenh/README.md"
     )
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/install_local_manifest.txt"
+  file(WRITE "/mnt/a/Master-IA-RES/Washington/imgtxtenh/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -92,6 +92,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/mnt/a/Master-IA-RES/Washington/imgtxtenh/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

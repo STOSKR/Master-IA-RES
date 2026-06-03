@@ -253,6 +253,7 @@ int main( int argc, char *argv[] ) {
     default:
       logger( 0, "error: incorrect input argument (-%c)", n );
       err = FAILURE;
+      __attribute__ ((fallthrough));
     case 'h':
       print_usage( logfile );
       return err;

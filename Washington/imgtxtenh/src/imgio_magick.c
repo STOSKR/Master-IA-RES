@@ -10,6 +10,10 @@
 #define CM_PER_IN 2.54
 #define IN_PER_CM 0.39370078740157480314
 
+static gray quantum_to_gray( double value ) {
+  return (gray)( 0.5 + ( 255.0 * value / QuantumRange ) );
+}
+
 void free_Img( Img *img ) {
   DestroyImageInfo( img->info );
   DestroyImage( img->image );
@@ -150,11 +154,7 @@ int getalpha_magick_graym( Img* img, gray* gimg ) {
 
   int n;
   for( n=img->width*img->height-1; n>=0; n-- )
-#if MAGICKCORE_QUANTUM_DEPTH == 16
-    gimg[n] = (int)GetPixelAlpha(pixs+n) >> 8;
-#elif MAGICKCORE_QUANTUM_DEPTH == 8
-    gimg[n] = (int)GetPixelAlpha(pixs+n);
-#endif
+    gimg[n] = quantum_to_gray( GetPixelAlpha(pixs+n) );
 
   return SUCCESS;
 }
@@ -170,11 +170,7 @@ int getpixels_magick_graym( Img* img, gray* gimg ) {
 
   int n;
   for( n=img->width*img->height-1; n>=0; n-- )
-#if MAGICKCORE_QUANTUM_DEPTH == 16
-    gimg[n] = (int)GetPixelGray(pixs+n) >> 8;
-#elif MAGICKCORE_QUANTUM_DEPTH == 8
-    gimg[n] = (int)GetPixelGray(pixs+n);
-#endif
+    gimg[n] = quantum_to_gray( GetPixelGray(pixs+n) );
 
   return SUCCESS;
 }
@@ -190,15 +186,9 @@ int getpixels_magick_pixelm( Img* img, pixel* cimg ) {
 
   int n;
   for( n=img->width*img->height-1; n>=0; n-- ) {
-#if MAGICKCORE_QUANTUM_DEPTH == 16
-    cimg[n].r = (int)GetPixelRed(pixs+n) >> 8;
-    cimg[n].g = (int)GetPixelGreen(pixs+n) >> 8;
-    cimg[n].b = (int)GetPixelBlue(pixs+n) >> 8;
-#elif MAGICKCORE_QUANTUM_DEPTH == 8
-    cimg[n].r = (int)GetPixelRed(pixs+n);
-    cimg[n].g = (int)GetPixelGreen(pixs+n);
-    cimg[n].b = (int)GetPixelBlue(pixs+n);
-#endif
+    cimg[n].r = quantum_to_gray( GetPixelRed(pixs+n) );
+    cimg[n].g = quantum_to_gray( GetPixelGreen(pixs+n) );
+    cimg[n].b = quantum_to_gray( GetPixelBlue(pixs+n) );
   }
 
   return SUCCESS;
@@ -291,17 +281,10 @@ int togray_magick( Img* img ) {
 
   int n;
   for( n=img->width*img->height-1; n>=0; n-- )
-#if MAGICKCORE_QUANTUM_DEPTH == 16
     gimg[n] = (gray)( 0.5 +
-              0.299*((int)GetPixelRed(pixs+n)>>8) +
-              0.587*((int)GetPixelGreen(pixs+n)>>8) +
-              0.114*((int)GetPixelBlue(pixs+n)>>8) );
-#elif MAGICKCORE_QUANTUM_DEPTH == 8
-    gimg[n] = (gray)( 0.5 +
-              0.299*((int)GetPixelRed(pixs+n)) +
-              0.587*((int)GetPixelGreen(pixs+n)) +
-              0.114*((int)GetPixelBlue(pixs+n)) );
-#endif
+              0.299*quantum_to_gray( GetPixelRed(pixs+n) ) +
+              0.587*quantum_to_gray( GetPixelGreen(pixs+n) ) +
+              0.114*quantum_to_gray( GetPixelBlue(pixs+n) ) );
 
   int err = setpixels_magick_graym( img, gimg );
 

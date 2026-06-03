@@ -1,5 +1,5 @@
 CMakeFiles/imgtxtenh.dir/src/imgtxtenh.c.o: \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/imgtxtenh.c \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/imgtxtenh.c \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -43,8 +43,8 @@ CMakeFiles/imgtxtenh.dir/src/imgtxtenh.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/imgio_magick.h \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/mem.h \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/imgio_magick.h \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/mem.h \
  /usr/include/ImageMagick-6/magick/MagickCore.h \
  /usr/include/ImageMagick-6/magick/magick-config.h \
  /usr/include/x86_64-linux-gnu/ImageMagick-6/magick/magick-baseconfig.h \
@@ -173,8 +173,8 @@ CMakeFiles/imgtxtenh.dir/src/imgtxtenh.c.o: \
  /usr/include/ImageMagick-6/magick/vision.h \
  /usr/include/ImageMagick-6/magick/xml-tree.h \
  /usr/include/ImageMagick-6/magick/xwindow.h \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/imgconv.h \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/intimg.h \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/htrprep.h \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/objs.h \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/log.h
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/imgconv.h \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/intimg.h \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/htrprep.h \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/objs.h \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/log.h

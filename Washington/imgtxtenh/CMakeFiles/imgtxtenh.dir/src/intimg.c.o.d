@@ -1,8 +1,9 @@
 CMakeFiles/imgtxtenh.dir/src/intimg.c.o: \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/intimg.c \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/intimg.c \
  /usr/include/stdc-predef.h \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/intimg.h \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/mem.h /usr/include/stdlib.h \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/intimg.h \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/mem.h \
+ /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

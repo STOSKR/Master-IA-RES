@@ -1,8 +1,9 @@
 CMakeFiles/imgtxtenh.dir/src/objs.c.o: \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/objs.c \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/objs.c \
  /usr/include/stdc-predef.h \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/objs.h \
- /mnt/a/Master-IA-RES/Rodrigo/imgtxtenh/src/mem.h /usr/include/stdlib.h \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/objs.h \
+ /mnt/a/Master-IA-RES/Washington/imgtxtenh/src/mem.h \
+ /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
