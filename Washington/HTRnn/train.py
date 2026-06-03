@@ -11,12 +11,26 @@ import numpy as np
 from multiprocessing import cpu_count
 from termcolor import colored
 
+# Compatibility shim for checkpoints serialized with newer NumPy internals.
+try:
+    import numpy.core as _np_core
+
+    sys.modules.setdefault("numpy._core", _np_core)
+    sys.modules.setdefault("numpy._core.multiarray", _np_core.multiarray)
+    sys.modules.setdefault("numpy._core.numeric", _np_core.numeric)
+    if hasattr(_np_core, "umath"):
+        sys.modules.setdefault("numpy._core.umath", _np_core.umath)
+    if hasattr(_np_core, "_multiarray_umath"):
+        sys.modules.setdefault("numpy._core._multiarray_umath", _np_core._multiarray_umath)
+except Exception:
+    pass
+
 # Local packages
 import procImg
 from buildMod import HTRModel
 from dataset import HTRDataset, ctc_collate
 
-def train(model, htr_dataset_train ,htr_dataset_val, device, epochs=20, batch_size=24, early_stop=10,verbosity=False):
+def train(model, htr_dataset_train ,htr_dataset_val, device, epochs=20, batch_size=24, early_stop=10, learning_rate=1e-3, verbosity=False):
     # To control the reproducibility of the experiments
     #torch.manual_seed(17)
     charVoc = htr_dataset_train.get_charVoc()
@@ -54,7 +68,7 @@ def train(model, htr_dataset_train ,htr_dataset_val, device, epochs=20, batch_si
     # the neural network such as weights and learning rate to reduce the 
     # losses.
     #optimizer = torch.optim.SGD(model.parameters(), lr=1e-5, momentum=0.9)
-    optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
+    optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
     '''
     # Print model state_dict
@@ -208,6 +222,7 @@ if __name__ == "__main__":
     parser.add_argument('--epochs', type=int, help='number of epochs', default=20)
     parser.add_argument('--early-stop', type=int, help='number of epochs without improving', default=10)
     parser.add_argument('--batch-size', type=int, help='image batch-size', default=24)
+    parser.add_argument('--learning-rate', type=float, help='optimizer learning rate', default=1e-3)
     parser.add_argument('--space-symbol', type=str, help='image batch-size', default='~')
     parser.add_argument('--gpu', type=int, default=[0,1], nargs='+', help='used gpu')     
     parser.add_argument("--verbosity", action="store_true",  help="increase output verbosity",default=False)
@@ -266,6 +281,7 @@ if __name__ == "__main__":
     logs = open(args.model_name.rsplit('.',1)[0]+".log","w")
     train(model, htr_dataset_train, htr_dataset_val, device, epochs=args.epochs,          
           batch_size=args.batch_size, early_stop=args.early_stop,
+          learning_rate=args.learning_rate,
           verbosity=args.verbosity)
 
 #    torch.save({'model': model, 
