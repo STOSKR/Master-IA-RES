@@ -202,6 +202,8 @@ vector<Point>  millorCami(Mat & rotada, vector< LineStruct>  & lines_rotades){
     int y_central=calc_y(lines_rotades[0].linePoints[p_central],lines_rotades[0].linePoints[p_central+1],x);
     int y_down   =calc_y(lines_rotades[1].linePoints[p_down],   lines_rotades[1].linePoints[p_down+1],x);
 
+    if (y_central < 0) y_central=0;
+    if (y_down < 0) y_down=0;
     if (y_central >= rotada.rows) y_central=rotada.rows-1;
     if (y_down >= rotada.rows) y_down=rotada.rows-1;
 
@@ -287,11 +289,15 @@ vector<Point>  millorCami(Mat & rotada, vector< LineStruct>  & lines_rotades){
 
   //dijkstra per trobar el camí més curt
   int y_ini=( marges[0].y_max - marges[0].y_min )/4 + marges[0].y_min ;
+  if (y_ini < 0) y_ini=0;
+  if (y_ini >= rotada.rows) y_ini=rotada.rows-1;
   //si al rotar fora la vora negra
   int x_ini=0;
-  uchar pixel= rotada.at<uchar>(x_ini,y_ini) ;
-  while (x_ini && pixel == 0) 
+  uchar pixel= rotada.at<uchar>(y_ini,x_ini) ;
+  while (x_ini < rotada.cols-1 && pixel == 0) {
     x_ini++;
+    pixel= rotada.at<uchar>(y_ini,x_ini);
+  }
 
   int orig=y_ini* rotada.cols; //+ x_ini;
   graf->dijkstra(orig);
@@ -803,7 +809,12 @@ int main(int argc,char** argv ) {
     if (verbosity > 1)
       cout << endl<< "processing line "<< l+1<< endl;
     
-    getLineImage(lines, img_rotated, segmentacio, l, rect);
+    try {
+      getLineImage(lines, img_rotated, segmentacio, l, rect);
+    } catch (const cv::Exception& ex) {
+      cerr << "WARNING: line extraction failed for region " << cont_reg
+           << " line " << l << ": " << ex.what() << endl;
+    }
   }
 
   //afegim una linia inicial damunt de la primera i igual a ella
@@ -862,28 +873,41 @@ int main(int argc,char** argv ) {
       int xini=rect.tl().x ;
       int xfi=rect.br().x ;
 
+      if (xini < 0) xini=0;
+      if (xfi > img_rotated.cols) xfi=img_rotated.cols;
+
       if (!deBatABat){
 	xini=lines[seg].linePoints[0].x ;
 	if (xini < 0) xini=0;
 	xfi=lines[seg].linePoints[lines[seg].linePoints.size()-1].x ;
-	if (xfi > img_rotated.cols) xfi=img_rotated.cols-1;
+	if (xfi > img_rotated.cols) xfi=img_rotated.cols;
       }
+
+      if (xfi <= xini) continue;
 
       int y_min= img_rotated.rows;
       int y_max = 0;
 
      		  
       for (int x = xini; x < xfi; x++){
-	 if (y_min > seg_lines[seg][x]) y_min = seg_lines[seg][x];
-	 if (y_max < seg_lines[seg+1][x]) y_max = seg_lines[seg+1][x];
+	 int top=seg_lines[seg][x];
+	 int bottom=seg_lines[seg+1][x];
+	 if (top < 0) top=0;
+	 if (bottom < 0) bottom=0;
+	 if (top >= img_rotated.rows) top=img_rotated.rows-1;
+	 if (bottom >= img_rotated.rows) bottom=img_rotated.rows-1;
+	 if (y_min > top) y_min = top;
+	 if (y_max < bottom) y_max = bottom;
       } 
+
+      if (y_max <= y_min) continue;
 
       Mat img_lin(y_max-y_min+1, xfi-xini,  CV_8UC1, Scalar(255));
 
       for (int x = xini; x < xfi; x++)
 	if ( seg_lines[seg].find(x) != seg_lines[seg].end())
-	  for (int y = seg_lines[seg][x]; y < seg_lines[seg+1][x]; y++) 
-	    if ( y < img_rotated.rows)
+	  for (int y = max(0, seg_lines[seg][x]); y < min(img_rotated.rows, seg_lines[seg+1][x]); y++) 
+	    if ( y >= y_min && y <= y_max)
 	      img_lin.at<uchar>(y-y_min, x-xini) = img_rotated.at<uchar>(y,x); 
 
       if (!deBatABat){
