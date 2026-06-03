@@ -1,113 +1,23 @@
-/bin/bash: /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/lib/libtinfo.so.6: no version information available (required by /bin/bash)
-data/Corpus_clean/270 Region 0 Number of lines 34
-WARNING: line extraction failed for region 0 line 4: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(4.6.0) ./modules/core/src/matrix.cpp:808: error: (-215:Assertion failed) 0 <= roi.x && 0 <= roi.width && roi.x + roi.width <= m.cols && 0 <= roi.y && 0 <= roi.height && roi.y + roi.height <= m.rows in function 'Mat'
 
-WARNING: line extraction failed for region 0 line 27: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 33: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/271 Region 0 Number of lines 39
-WARNING: line extraction failed for region 0 line 3: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 32: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 35: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/272 Region 0 Number of lines 39
-WARNING: line extraction failed for region 0 line 4: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 24: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/273 Region 0 Number of lines 33
-WARNING: line extraction failed for region 0 line 2: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 17: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 23: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 28: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 31: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 36: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 38: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 40: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 43: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/274 Region 0 Number of lines 46
-WARNING: line extraction failed for region 0 line 12: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/275 Region 0 Number of lines 35
-WARNING: line extraction failed for region 0 line 24: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/276 Region 0 Number of lines 34
-WARNING: line extraction failed for region 0 line 3: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 6: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/277 Region 0 Number of lines 35
-WARNING: line extraction failed for region 0 line 21: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 31: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/278 Region 0 Number of lines 38
-WARNING: line extraction failed for region 0 line 30: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/279 Region 0 Number of lines 35
+data/Corpus_clean/274 Region 0 Number of lines 35
+data/Corpus_clean/278 Region 0 Number of lines 34
+data/Corpus_clean/271 Region 0 Number of lines 33
+data/Corpus_clean/302 Region 0 Number of lines 34
+data/Corpus_clean/279 Region 0 Number of lines 32
+data/Corpus_clean/272 Region 0 Number of lines 35
+data/Corpus_clean/308 Region 0 Number of lines 33
+data/Corpus_clean/304 Region 0 Number of lines 32
+data/Corpus_clean/301 Region 0 Number of lines 34
+data/Corpus_clean/305 Region 0 Number of lines 32
+data/Corpus_clean/270 Region 0 Number of lines 31
+data/Corpus_clean/306 Region 0 Number of lines 32
+data/Corpus_clean/303 Region 0 Number of lines 34
+data/Corpus_clean/277 Region 0 Number of lines 31
+data/Corpus_clean/275 Region 0 Number of lines 32
+data/Corpus_clean/309 Region 0 Number of lines 31
+data/Corpus_clean/307 Region 0 Number of lines 30
+data/Corpus_clean/276 Region 0 Number of lines 33
+data/Corpus_clean/273 Region 0 Number of lines 30
 data/Corpus_clean/300 Region 0 Number of lines 31
-WARNING: line extraction failed for region 0 line 2: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 4: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 33: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/301 Region 0 Number of lines 39
-WARNING: line extraction failed for region 0 line 17: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 20: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 23: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 25: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/302 Region 0 Number of lines 39
-WARNING: line extraction failed for region 0 line 5: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 13: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/303 Region 0 Number of lines 37
-WARNING: line extraction failed for region 0 line 0: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 19: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 36: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/304 Region 0 Number of lines 38
-WARNING: line extraction failed for region 0 line 13: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 15: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 18: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 32: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/305 Region 0 Number of lines 37
-WARNING: line extraction failed for region 0 line 19: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/306 Region 0 Number of lines 35
-WARNING: line extraction failed for region 0 line 3: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 6: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-WARNING: line extraction failed for region 0 line 11: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/307 Region 0 Number of lines 33
-WARNING: line extraction failed for region 0 line 0: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/308 Region 0 Number of lines 37
-WARNING: line extraction failed for region 0 line 20: OpenCV(4.13.0) /home/alumno.upv.es/scheng1/.conda/envs/RFA2526pt/include/opencv4/opencv2/core/mat.inl.hpp:916: error: (-215:Assertion failed) (unsigned)i0 < (unsigned)size.p[0] in function 'at'
-
-data/Corpus_clean/309 Region 0 Number of lines 33
