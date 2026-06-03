@@ -8,7 +8,8 @@ fi
 
 set -e
 
-PATH=$PATH:${HOME}/baseLinePage/BIN:.
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PATH="$SCRIPT_DIR/../BIN:$PATH:${HOME}/baseLinePage/BIN:."
 
 
 DOUT=${2/\\/}

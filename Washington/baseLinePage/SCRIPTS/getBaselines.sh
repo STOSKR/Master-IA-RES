@@ -10,7 +10,8 @@ fi
 #set -n : Read commands but do not execute them. This may be used to check a shell script for syntax errors.
 #set -e stop the script if an error occurs
 
-PATH=$PATH:${HOME}/baseLinePage/BIN:.
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PATH="$SCRIPT_DIR/../BIN:$PATH:${HOME}/baseLinePage/BIN:."
 #DOUT=${2/\//}
 DOUT=${2}
 ERT=$3
