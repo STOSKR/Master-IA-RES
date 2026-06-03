@@ -227,7 +227,7 @@ if __name__ == "__main__":
     print("Selected GPU %i\n"%(torch.cuda.current_device()))
           
     if os.path.isfile(args.model_name):        
-        state = torch.load(args.model_name, map_location=device)
+        state = torch.load(args.model_name, map_location=device, weights_only=False)
         model = state['model']
         charVoc = np.array(state['codec'])
     else:

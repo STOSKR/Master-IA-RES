@@ -6,6 +6,20 @@ import torch
 import fastwer
 import numpy as np
 
+# Compatibility shim for checkpoints serialized with newer NumPy internals.
+try:
+    import numpy.core as _np_core
+
+    sys.modules.setdefault("numpy._core", _np_core)
+    sys.modules.setdefault("numpy._core.multiarray", _np_core.multiarray)
+    sys.modules.setdefault("numpy._core.numeric", _np_core.numeric)
+    if hasattr(_np_core, "umath"):
+        sys.modules.setdefault("numpy._core.umath", _np_core.umath)
+    if hasattr(_np_core, "_multiarray_umath"):
+        sys.modules.setdefault("numpy._core._multiarray_umath", _np_core._multiarray_umath)
+except Exception:
+    pass
+
 #from torchvision.utils import save_image
 from multiprocessing import cpu_count
 from tqdm import tqdm
@@ -136,7 +150,7 @@ if __name__ == "__main__":
     print("selected GPU %i"%(torch.cuda.current_device()))
           
     # Load model in memory
-    state = torch.load(args.model, map_location=device)
+    state = torch.load(args.model, map_location=device, weights_only=False)
     model = state['model']
    
     # Get the sequence of transformations to apply to images 
