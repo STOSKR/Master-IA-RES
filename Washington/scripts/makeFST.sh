@@ -101,4 +101,4 @@ N_FEAT=`feat-to-dim ark:${CONF_MAT} -`
 ./scripts/mkTopo.sh ${N_FEAT} > models/WFST/topology.hmm
 
 gmm-init-mono --print-args=false models/WFST/topology.hmm \
-${N_FEAT} models/WFST/model.hmm /tmp/auxTree
+${N_FEAT} models/WFST/model.hmm models/WFST/auxTree
