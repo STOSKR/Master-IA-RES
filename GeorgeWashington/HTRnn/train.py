@@ -11,6 +11,20 @@ import numpy as np
 from multiprocessing import cpu_count
 from termcolor import colored
 
+# Compatibility shim for checkpoints serialized with newer NumPy internals.
+try:
+    import numpy.core as _np_core
+
+    sys.modules.setdefault("numpy._core", _np_core)
+    sys.modules.setdefault("numpy._core.multiarray", _np_core.multiarray)
+    sys.modules.setdefault("numpy._core.numeric", _np_core.numeric)
+    if hasattr(_np_core, "umath"):
+        sys.modules.setdefault("numpy._core.umath", _np_core.umath)
+    if hasattr(_np_core, "_multiarray_umath"):
+        sys.modules.setdefault("numpy._core._multiarray_umath", _np_core._multiarray_umath)
+except Exception:
+    pass
+
 # Local packages
 import procImg
 from buildMod import HTRModel

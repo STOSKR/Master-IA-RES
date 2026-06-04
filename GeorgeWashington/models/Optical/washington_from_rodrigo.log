@@ -1,0 +1,10 @@
+epoch 0 train av. loss = 4.42232 val av. loss = 3.68944
+epoch 1 train av. loss = 3.54901 val av. loss = 3.36357
+epoch 2 train av. loss = 3.34743 val av. loss = 3.27567
+epoch 3 train av. loss = 3.29376 val av. loss = 3.23547
+epoch 4 train av. loss = 3.25449 val av. loss = 3.20549
+epoch 5 train av. loss = 3.17048 val av. loss = 3.18976
+epoch 6 train av. loss = 3.15622 val av. loss = 3.11030
+epoch 7 train av. loss = 3.08778 val av. loss = 3.10246
+epoch 8 train av. loss = 3.09122 val av. loss = 3.06772
+epoch 9 train av. loss = 2.99992 val av. loss = 2.90973
