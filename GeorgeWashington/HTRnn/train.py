@@ -30,7 +30,30 @@ import procImg
 from buildMod import HTRModel
 from dataset import HTRDataset, ctc_collate
 
-def train(model, htr_dataset_train ,htr_dataset_val, device, epochs=20, batch_size=24, early_stop=10,verbosity=False):
+def set_module_trainable(module, trainable):
+    for param in module.parameters():
+        param.requires_grad = trainable
+
+
+def configure_optimizer(model, lr, freeze_cnn_fc=False):
+    if freeze_cnn_fc:
+        set_module_trainable(model.layer1, False)
+        set_module_trainable(model.fc, False)
+        set_module_trainable(model.lstm, True)
+        print("Training phase: LSTM only (CNN and FC frozen)")
+    else:
+        for param in model.parameters():
+            param.requires_grad = True
+        print("Training phase: full model")
+
+    trainable_params = [param for param in model.parameters() if param.requires_grad]
+    total_params = sum(param.numel() for param in trainable_params)
+    print(f"Trainable parameters: {total_params}\n")
+    return torch.optim.Adam(trainable_params, lr=lr)
+
+
+def train(model, htr_dataset_train ,htr_dataset_val, device, epochs=20, batch_size=24, early_stop=10,verbosity=False,
+          lr=1e-3, freeze_cnn_fc_epochs=0, finetune_lr=None):
     # To control the reproducibility of the experiments
     #torch.manual_seed(17)
     charVoc = htr_dataset_train.get_charVoc()
@@ -68,7 +91,7 @@ def train(model, htr_dataset_train ,htr_dataset_val, device, epochs=20, batch_si
     # the neural network such as weights and learning rate to reduce the 
     # losses.
     #optimizer = torch.optim.SGD(model.parameters(), lr=1e-5, momentum=0.9)
-    optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
+    optimizer = configure_optimizer(model, lr, freeze_cnn_fc=freeze_cnn_fc_epochs > 0)
 
     '''
     # Print model state_dict
@@ -80,15 +103,16 @@ def train(model, htr_dataset_train ,htr_dataset_val, device, epochs=20, batch_si
     for var_name in optimizer.state_dict():
         print(var_name, "\t", optimizer.state_dict()[var_name], file=sys.stderr)
     '''
-    # Print the total number of parameters of the model to train
-    total_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
-    print(f'\nModel with {total_params} parameters to be trained.\n', file=sys.stdout)
-
     # Epoch loop
     last_best_val_epoch=-1
     best_val_loss=sys.float_info.max;
     epochs_without_improving=0
     for epoch in range(epochs):
+        if freeze_cnn_fc_epochs > 0 and epoch == freeze_cnn_fc_epochs:
+            if finetune_lr is None:
+                finetune_lr = lr
+            optimizer = configure_optimizer(model, finetune_lr, freeze_cnn_fc=False)
+
         total_train_loss = 0
         ignored_batches=list()
         batch_num=0
@@ -222,6 +246,9 @@ if __name__ == "__main__":
     parser.add_argument('--epochs', type=int, help='number of epochs', default=20)
     parser.add_argument('--early-stop', type=int, help='number of epochs without improving', default=10)
     parser.add_argument('--batch-size', type=int, help='image batch-size', default=24)
+    parser.add_argument('--lr', type=float, help='learning rate', default=1e-3)
+    parser.add_argument('--freeze-cnn-fc-epochs', type=int, help='epochs training only LSTM before unfreezing the full model', default=0)
+    parser.add_argument('--finetune-lr', type=float, help='learning rate after unfreezing the full model', default=None)
     parser.add_argument('--space-symbol', type=str, help='image batch-size', default='~')
     parser.add_argument('--gpu', type=int, default=[0,1], nargs='+', help='used gpu')     
     parser.add_argument("--verbosity", action="store_true",  help="increase output verbosity",default=False)
@@ -280,7 +307,9 @@ if __name__ == "__main__":
     logs = open(args.model_name.rsplit('.',1)[0]+".log","w")
     train(model, htr_dataset_train, htr_dataset_val, device, epochs=args.epochs,          
           batch_size=args.batch_size, early_stop=args.early_stop,
-          verbosity=args.verbosity)
+          verbosity=args.verbosity, lr=args.lr,
+          freeze_cnn_fc_epochs=args.freeze_cnn_fc_epochs,
+          finetune_lr=args.finetune_lr)
 
 #    torch.save({'model': model, 
 #                'line_height': args.fixed_height, 
