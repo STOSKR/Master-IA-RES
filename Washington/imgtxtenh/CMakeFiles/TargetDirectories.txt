@@ -1,8 +1,0 @@
-/mnt/a/Master-IA-RES/Washington/imgtxtenh/CMakeFiles/imgtxtenh.dir
-/mnt/a/Master-IA-RES/Washington/imgtxtenh/CMakeFiles/realclean.dir
-/mnt/a/Master-IA-RES/Washington/imgtxtenh/CMakeFiles/edit_cache.dir
-/mnt/a/Master-IA-RES/Washington/imgtxtenh/CMakeFiles/rebuild_cache.dir
-/mnt/a/Master-IA-RES/Washington/imgtxtenh/CMakeFiles/list_install_components.dir
-/mnt/a/Master-IA-RES/Washington/imgtxtenh/CMakeFiles/install.dir
-/mnt/a/Master-IA-RES/Washington/imgtxtenh/CMakeFiles/install/local.dir
-/mnt/a/Master-IA-RES/Washington/imgtxtenh/CMakeFiles/install/strip.dir

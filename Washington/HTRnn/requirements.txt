@@ -1,7 +1,0 @@
-pybind11
-numpy==1.24.1
-tqdm
-torch==1.13.1
-torchvision
-fastwer
-termcolor
