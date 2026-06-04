@@ -5,7 +5,7 @@ OTHER_LIBS=-lpugixml
 
 all: baseLinePage GTTool 
 baseLinePage: 
-	mkdir ../BIN || echo "../BIN directory already exists"
+	mkdir -p ../BIN
 	make -C LIB
 	make -C clusterLinies;
 	make -C imageLocalExtrema 
@@ -20,6 +20,7 @@ baseLinePage:
 GTTool:
 	qmake -o GT_Tool_PAGE_Points/Makefile GT_Tool_PAGE_Points/GT_Tool_PAGE_Points.pro
 	make  -C GT_Tool_PAGE_Points/ 
+	rm -f ../BIN/GT_Tool_PAGE_Points
 	cp GT_Tool_PAGE_Points/GT_Tool_PAGE_Points ../BIN
 
 clean:
