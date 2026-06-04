@@ -2,6 +2,34 @@
 import torchvision.transforms as transforms
 import torchvision.transforms.functional as Fv
 from PIL import ImageOps
+import numpy as np
+
+
+class TrimWhiteMargins(object):
+    def __init__(self, threshold=245, padding=8):
+        self.threshold = threshold
+        self.padding = padding
+
+    def __call__(self, img):
+        img = img.convert("L")
+        arr = np.array(img).copy()
+        h, w = arr.shape
+
+        ink = arr < self.threshold
+        vertical_rules = ink.sum(axis=0) > int(h * 0.85)
+        if vertical_rules.any():
+            arr[:, vertical_rules] = 255
+            ink = arr < self.threshold
+
+        if not ink.any():
+            return img
+
+        ys, xs = np.where(ink)
+        left = max(int(xs.min()) - self.padding, 0)
+        right = min(int(xs.max()) + self.padding + 1, w)
+        top = max(int(ys.min()) - self.padding, 0)
+        bottom = min(int(ys.max()) + self.padding + 1, h)
+        return img.crop((left, top, right, bottom))
 
 class FixedHeightResize(object):
     """
@@ -41,6 +69,8 @@ def get_tranform(fixedHeight=64, dataAug=False):
 
     # List of mandatory transformations
     nTr = [
+        # Remove large white margins and page border artifacts.
+        TrimWhiteMargins(),
         # Invert pixel values
         transforms.Lambda(lambda x: ImageOps.invert(x)),
         # Scale to a fixed height
