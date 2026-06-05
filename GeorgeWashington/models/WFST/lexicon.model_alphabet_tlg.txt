@@ -1,0 +1,741 @@
+<s> <space> #1
+</s> <space> #2
+(as ( a s <space>
+(i ( i <space>
+(or ( o r <space>
+(who ( w h o <space>
+- - <space>
+-day. - d a y . <space>
+-rolls; - r o l l s ; <space>
+16th. 1 6 t h . <space>
+1755 1 7 5 5 <space>
+1755. 1 7 5 5 . <space>
+17th. 1 7 t h . <space>
+1st. 1 s t . <space>
+20th. 2 0 t h . <space>
+22nd. 2 2 n d . <space>
+271. 2 7 1 . <space>
+276. 2 7 6 . <space>
+28th. 2 8 t h . <space>
+29th. 2 9 t h . <space>
+3 3 <space>
+300. 3 0 0 . <space>
+301. 3 0 1 . <space>
+303. 3 0 3 . <space>
+308. 3 0 8 . <space>
+5th 5 t h <space>
+5th. 5 t h . <space>
+a a <space>
+ab a b <space>
+abbemarle. a b b e m a r l e . <space>
+able a b l e <space>
+above a b o v e <space>
+absolutely a b s o l u t e l y <space>
+ac a c <space>
+accompts a c c o m p t s <space>
+account a c c o u n t <space>
+acquainted a c q u a i n t e d <space>
+act a c t <space>
+act; a c t ; <space>
+adjutant a d j u t a n t <space>
+advisable a d v i s a b l e <space>
+affairs a f f a i r s <space>
+afsembly a f s e m b l y <space>
+against a g a i n s t <space>
+age a g e <space>
+aid a i d <space>
+alexandria a l e x a n d r i a <space>
+alexandrias: a l e x a n d r i a s : <space>
+all a l l <space>
+allowance a l l o w a n c e <space>
+also a l s o <space>
+also. a l s o . <space>
+am a m <space>
+ammunition a m m u n i t i o n <space>
+among a m o n g <space>
+an a n <space>
+and a n d <space>
+another a n o t h e r <space>
+ants a n t s <space>
+any a n y <space>
+ap a p <space>
+appointed a p p o i n t e d <space>
+apprehending a p p r e h e n d i n g <space>
+aquaint a q u a i n t <space>
+ar a r <space>
+are a r e <space>
+are. a r e . <space>
+arms a r m s <space>
+arrival a r r i v a l <space>
+arrive a r r i v e <space>
+arrived a r r i v e d <space>
+arrived. a r r i v e d . <space>
+arrives a r r i v e s <space>
+arts a r t s <space>
+as a s <space>
+at a t <space>
+ately a t e l y <space>
+attended a t t e n d e d <space>
+augmen a u g m e n <space>
+augusta a u g u s t a <space>
+bad b a d <space>
+balance b a l a n c e <space>
+be b e <space>
+be) b e ) <space>
+bearer b e a r e r <space>
+bearer. b e a r e r . <space>
+beeves b e e v e s <space>
+before b e f o r e <space>
+being b e i n g <space>
+believe b e l i e v e <space>
+bell b e l l <space>
+belong b e l o n g <space>
+belonging b e l o n g i n g <space>
+below; b e l o w ; <space>
+best b e s t <space>
+better b e t t e r <space>
+between b e t w e e n <space>
+bill b i l l <space>
+bill; b i l l ; <space>
+blan b l a n <space>
+bly b l y <space>
+bore b o r e <space>
+boston b o s t o n <space>
+brea b r e a <space>
+bring b r i n g <space>
+bringing b r i n g i n g <space>
+burgh b u r g h <space>
+businefs b u s i n e f s <space>
+but b u t <space>
+by b y <space>
+camp c a m p <space>
+camp. c a m p . <space>
+can c a n <space>
+can. c a n . <space>
+can; c a n ; <space>
+cap c a p <space>
+captain c a p t a i n <space>
+care c a r e <space>
+careful c a r e f u l <space>
+carlyle c a r l y l e <space>
+carlyle. c a r l y l e . <space>
+carolina c a r o l i n a <space>
+carry c a r r y <space>
+cas c a s <space>
+case c a s e <space>
+cattle c a t t l e <space>
+certain c e r t a i n <space>
+channel. c h a n n e l . <space>
+che c h e <space>
+chest c h e s t <space>
+chester; c h e s t e r ; <space>
+chief c h i e f <space>
+church c h u r c h <space>
+clause c l a u s e <space>
+clo c l o <space>
+clothes c l o t h e s <space>
+clothes. c l o t h e s . <space>
+clothes; c l o t h e s ; <space>
+clothing c l o t h i n g <space>
+colonel c o l o n e l <space>
+command c o m m a n d <space>
+commanded c o m m a n d e d <space>
+commands c o m m a n d s <space>
+commif c o m m i f <space>
+commifsaries c o m m i f s a r i e s <space>
+commifsary c o m m i f s a r y <space>
+commifsion. c o m m i f s i o n . <space>
+committee c o m m i t t e e <space>
+commonalty c o m m o n a l t y <space>
+companies c o m p a n i e s <space>
+company c o m p a n y <space>
+complied c o m p l i e d <space>
+compliments c o m p l i m e n t s <space>
+con c o n <space>
+conscious c o n s c i o u s <space>
+contingences. c o n t i n g e n c e s . <space>
+contract c o n t r a c t <space>
+contracts c o n t r a c t s <space>
+conveniently c o n v e n i e n t l y <space>
+conveying c o n v e y i n g <space>
+copy c o p y <space>
+corbin c o r b i n <space>
+corporal c o r p o r a l <space>
+correspond c o r r e s p o n d <space>
+could c o u l d <space>
+council c o u n c i l <space>
+country c o u n t r y <space>
+country. c o u n t r y . <space>
+court c o u r t <space>
+court. c o u r t . <space>
+covered c o v e r e d <space>
+crai c r a i <space>
+cree c r e e <space>
+crime c r i m e <space>
+cumberland c u m b e r l a n d <space>
+cumberland) c u m b e r l a n d ) <space>
+curing c u r i n g <space>
+dag d a g <space>
+dalton d a l t o n <space>
+day d a y <space>
+de d e <space>
+dead d e a d <space>
+december d e c e m b e r <space>
+december. d e c e m b e r . <space>
+delaying d e l a y i n g <space>
+delays d e l a y s <space>
+delayss: d e l a y s s : <space>
+delivered d e l i v e r e d <space>
+der d e r <space>
+deser d e s e r <space>
+desert d e s e r t <space>
+deserted d e s e r t e d <space>
+designs: d e s i g n s : <space>
+desire d e s i r e <space>
+diately d i a t e l y <space>
+did d i d <space>
+dinwiddie d i n w i d d i e <space>
+directed d i r e c t e d <space>
+directions d i r e c t i o n s <space>
+dis d i s <space>
+disagreement d i s a g r e e m e n t <space>
+disappointed d i s a p p o i n t e d <space>
+dischargeds: d i s c h a r g e d s : <space>
+disobedi d i s o b e d i <space>
+dispatch. d i s p a t c h . <space>
+dispath d i s p a t h <space>
+displeased d i s p l e a s e d <space>
+dispositions d i s p o s i t i o n s <space>
+do d o <space>
+doctor d o c t o r <space>
+doubtful; d o u b t f u l ; <space>
+down d o w n <space>
+down; d o w n ; <space>
+draugh d r a u g h <space>
+drill d r i l l <space>
+drummer d r u m m e r <space>
+during d u r i n g <space>
+duty d u t y <space>
+each e a c h <space>
+ed e d <space>
+effec e f f e c <space>
+effect. e f f e c t . <space>
+eight e i g h t <space>
+else e l s e <space>
+embez e m b e z <space>
+embrace e m b r a c e <space>
+en e n <space>
+ence e n c e <space>
+encreased e n c r e a s e d <space>
+endeavour e n d e a v o u r <space>
+engage e n g a g e <space>
+engaged e n g a g e d <space>
+enlisted e n l i s t e d <space>
+enough e n o u g h <space>
+ensign e n s i g n <space>
+enter e n t e r <space>
+entirely e n t i r e l y <space>
+ept e p t <space>
+escort e s c o r t <space>
+esquire; e s q u i r e ; <space>
+est e s t <space>
+et e t <space>
+etc. e t c . <space>
+eustace e u s t a c e <space>
+ever e v e r <space>
+every e v e r y <space>
+evils e v i l s <space>
+ex e x <space>
+examination e x a m i n a t i o n <space>
+except e x c e p t <space>
+execution e x e c u t i o n <space>
+exercise e x e r c i s e <space>
+existss: e x i s t s s : <space>
+expamples e x p a m p l e s <space>
+expect e x p e c t <space>
+expected e x p e c t e d <space>
+expedition e x p e d i t i o n <space>
+expence e x p e n c e <space>
+fastening f a s t e n i n g <space>
+fered. f e r e d . <space>
+few f e w <space>
+ficient f i c i e n t <space>
+fifty f i f t y <space>
+filled f i l l e d <space>
+first f i r s t <space>
+five f i v e <space>
+fix f i x <space>
+fixed f i x e d <space>
+fleming f l e m i n g <space>
+following f o l l o w i n g <space>
+for f o r <space>
+force f o r c e <space>
+fore f o r e <space>
+forgot f o r g o t <space>
+fort f o r t <space>
+fort. f o r t . <space>
+fort; f o r t ; <space>
+forward f o r w a r d <space>
+forwarded f o r w a r d e d <space>
+frazier f r a z i e r <space>
+frederics f r e d e r i c s <space>
+fredericsburgh. f r e d e r i c s b u r g h . <space>
+friends f r i e n d s <space>
+from f r o m <space>
+fulfil f u l f i l <space>
+furnish f u r n i s h <space>
+further f u r t h e r <space>
+gene g e n e <space>
+general g e n e r a l <space>
+gentlemen g e n t l e m e n <space>
+george g e o r g e <space>
+given g i v e n <space>
+giving g i v i n g <space>
+glad g l a d <space>
+gladly g l a d l y <space>
+go g o <space>
+goes g o e s <space>
+good g o o d <space>
+got g o t <space>
+governor. g o v e r n o r . <space>
+great g r e a t <space>
+greater g r e a t e r <space>
+greatly g r e a t l y <space>
+guard g u a r d <space>
+gw g w <space>
+had h a d <space>
+hall h a l l <space>
+halt h a l t <space>
+hands h a n d s <space>
+harbouring h a r b o u r i n g <space>
+has h a s <space>
+hastened h a s t e n e d <space>
+have h a v e <space>
+having h a v i n g <space>
+he h e <space>
+hear h e a r <space>
+hedgeman h e d g e m a n <space>
+height h e i g h t <space>
+here h e r e <space>
+hereaf h e r e a f <space>
+hereby h e r e b y <space>
+hereof h e r e o f <space>
+heres: h e r e s : <space>
+him h i m <space>
+him. h i m . <space>
+his h i s <space>
+hoggs h o g g s <space>
+hon h o n <space>
+honor h o n o r <space>
+honour h o n o u r <space>
+honourable h o n o u r a b l e <space>
+honoured h o n o u r e d <space>
+honours h o n o u r s <space>
+hoping h o p i n g <space>
+horse h o r s e <space>
+hos h o s <space>
+house h o u s e <space>
+how h o w <space>
+hundred h u n d r e d <space>
+i i <space>
+i.e. i . e . <space>
+if i f <space>
+ignorance i g n o r a n c e <space>
+im i m <space>
+imme i m m e <space>
+immedi i m m e d i <space>
+immediate i m m e d i a t e <space>
+immediately i m m e d i a t e l y <space>
+impatiently i m p a t i e n t l y <space>
+impofsible i m p o f s i b l e <space>
+in i n <space>
+in; i n ; <space>
+inclination i n c l i n a t i o n <space>
+inconceivable i n c o n c e i v a b l e <space>
+inconve i n c o n v e <space>
+ind i n d <space>
+indians i n d i a n s <space>
+inform i n f o r m <space>
+informing i n f o r m i n g <space>
+ing i n g <space>
+ing. i n g . <space>
+instructions i n s t r u c t i o n s <space>
+instructions. i n s t r u c t i o n s . <space>
+inten i n t e n <space>
+into i n t o <space>
+into. i n t o . <space>
+is i s <space>
+it i t <space>
+it. i t . <space>
+its: i t s : <space>
+james j a m e s <space>
+john j o h n <space>
+join j o i n <space>
+joins j o i n s <space>
+judg j u d g <space>
+late l a t e <space>
+law l a w <space>
+lays l a y s <space>
+least l e a s t <space>
+leave l e a v e <space>
+leaves l e a v e s <space>
+left l e f t <space>
+let l e t <space>
+letter l e t t e r <space>
+letters l e t t e r s <space>
+lieutenant l i e u t e n a n t <space>
+light l i g h t <space>
+list l i s t <space>
+little l i t t l e <space>
+livered l i v e r e d <space>
+living l i v i n g <space>
+lofs l o f s <space>
+lofses l o f s e s <space>
+long l o n g <space>
+made m a d e <space>
+made. m a d e . <space>
+mae m a e <space>
+magazine m a g a z i n e <space>
+maing m a i n g <space>
+major m a j o r <space>
+major. m a j o r . <space>
+manage m a n a g e <space>
+manual m a n u a l <space>
+many m a n y <space>
+march m a r c h <space>
+march; m a r c h ; <space>
+maryland m a r y l a n d <space>
+may m a y <space>
+me m e <space>
+me. m e . <space>
+mean m e a n <space>
+medicines m e d i c i n e s <space>
+meet m e e t <space>
+meeting m e e t i n g <space>
+men m e n <space>
+men. m e n . <space>
+men; m e n ; <space>
+mens: m e n s : <space>
+ment; m e n t ; <space>
+mention m e n t i o n <space>
+mentioning m e n t i o n i n g <space>
+mercer m e r c e r <space>
+mercer. m e r c e r . <space>
+mercers m e r c e r s <space>
+might m i g h t <space>
+military m i l i t a r y <space>
+money m o n e y <space>
+month m o n t h <space>
+mor m o r <space>
+morally m o r a l l y <space>
+more m o r e <space>
+more; m o r e ; <space>
+morthy m o r t h y <space>
+mr. m r . <space>
+must m u s t <space>
+mutiny m u t i n y <space>
+my m y <space>
+near n e a r <space>
+necef n e c e f <space>
+necefsaries n e c e f s a r i e s <space>
+necefsary n e c e f s a r y <space>
+never n e v e r <space>
+new n e w <space>
+next n e x t <space>
+niency. n i e n c y . <space>
+ning n i n g <space>
+no n o <space>
+none n o n e <space>
+nor n o r <space>
+not n o t <space>
+nothing n o t h i n g <space>
+now n o w <space>
+nowledge. n o w l e d g e . <space>
+ns:b. n s : b . <space>
+number n u m b e r <space>
+objection o b j e c t i o n <space>
+obliged o b l i g e d <space>
+obviate o b v i a t e <space>
+occasion o c c a s i o n <space>
+october o c t o b e r <space>
+of o f <space>
+of. o f . <space>
+offers o f f e r s <space>
+offers. o f f e r s . <space>
+office o f f i c e <space>
+officer o f f i c e r <space>
+officers o f f i c e r s <space>
+ohio) o h i o ) <space>
+ominous. o m i n o u s . <space>
+on o n <space>
+once o n c e <space>
+one o n e <space>
+opinion. o p i n i o n . <space>
+opportunity o p p o r t u n i t y <space>
+or o r <space>
+order o r d e r <space>
+ordered o r d e r e d <space>
+ordered. o r d e r e d . <space>
+orders o r d e r s <space>
+orders. o r d e r s . <space>
+other o t h e r <space>
+ought o u g h t <space>
+our o u r <space>
+ours o u r s <space>
+out o u t <space>
+over o v e r <space>
+own o w n <space>
+p. p . <space>
+p.305 p . 3 0 5 <space>
+p.309. p . 3 0 9 . <space>
+p.s. p . s . <space>
+pafs p a f s <space>
+par p a r <space>
+parish p a r i s h <space>
+parole p a r o l e <space>
+part p a r t <space>
+particularly p a r t i c u l a r l y <space>
+party p a r t y <space>
+pay p a y <space>
+payment. p a y m e n t . <space>
+paymentss: p a y m e n t s s : <space>
+peaceable p e a c e a b l e <space>
+peachy p e a c h y <space>
+people p e o p l e <space>
+peremptorily p e r e m p t o r i l y <space>
+perhaps p e r h a p s <space>
+pital p i t a l <space>
+place p l a c e <space>
+ply p l y <space>
+pofsible p o f s i b l e <space>
+poor p o o r <space>
+pounds; p o u n d s ; <space>
+poverty p o v e r t y <space>
+poverty; p o v e r t y ; <space>
+pray p r a y <space>
+present; p r e s e n t ; <space>
+pretence p r e t e n c e <space>
+prevent p r e v e n t <space>
+price; p r i c e ; <space>
+printed p r i n t e d <space>
+private p r i v a t e <space>
+proceeding p r o c e e d i n g <space>
+proceedings p r o c e e d i n g s <space>
+procure p r o c u r e <space>
+proper p r o p e r <space>
+proportiona p r o p o r t i o n a <space>
+propose p r o p o s e <space>
+prove p r o v e <space>
+provide p r o v i d e <space>
+provision p r o v i s i o n <space>
+provisions p r o v i s i o n s <space>
+published p u b l i s h e d <space>
+purchase p u r c h a s e <space>
+pursuit p u r s u i t <space>
+put p u t <space>
+quainted q u a i n t e d <space>
+qualified q u a l i f i e d <space>
+quantity q u a n t i t y <space>
+quartered q u a r t e r e d <space>
+ral r a l <space>
+re r e <space>
+reach r e a c h <space>
+receipt r e c e i p t <space>
+receive r e c e i v e <space>
+recruiting r e c r u i t i n g <space>
+recruits r e c r u i t s <space>
+regard r e g a r d <space>
+regiment r e g i m e n t <space>
+regiment. r e g i m e n t . <space>
+regiments r e g i m e n t s <space>
+regiments: r e g i m e n t s : <space>
+relief r e l i e f <space>
+remain r e m a i n <space>
+remedy r e m e d y <space>
+removed r e m o v e d <space>
+repair r e p a i r <space>
+represented r e p r e s e n t e d <space>
+require. r e q u i r e . <space>
+rer r e r <space>
+resolves. r e s o l v e s . <space>
+respective r e s p e c t i v e <space>
+result r e s u l t <space>
+return r e t u r n <space>
+returned r e t u r n e d <space>
+returns r e t u r n s <space>
+review; r e v i e w ; <space>
+riding r i d i n g <space>
+rival r i v a l <space>
+river r i v e r <space>
+robert r o b e r t <space>
+roee r o e e <space>
+safetys: s a f e t y s : <space>
+said s a i d <space>
+salt s a l t <space>
+salt. s a l t . <space>
+same s a m e <space>
+saries s a r i e s <space>
+say s a y <space>
+searched s e a r c h e d <space>
+secured s e c u r e d <space>
+see s e e <space>
+seeing s e e i n g <space>
+seems s e e m s <space>
+sen s e n <space>
+send s e n d <space>
+sent s e n t <space>
+september. s e p t e m b e r . <space>
+serge s e r g e <space>
+sergeant s e r g e a n t <space>
+serviceable s e r v i c e a b l e <space>
+servitude s e r v i t u d e <space>
+settle s e t t l e <space>
+several s e v e r a l <space>
+shall s h a l l <space>
+shaw s h a w <space>
+shirley; s h i r l e y ; <space>
+shirts s h i r t s <space>
+shoes s h o e s <space>
+short s h o r t <space>
+should s h o u l d <space>
+since s i n c e <space>
+sion s i o n <space>
+slaughter. s l a u g h t e r . <space>
+so s o <space>
+soldiers s o l d i e r s <space>
+soldiers; s o l d i e r s ; <space>
+solute s o l u t e <space>
+some s o m e <space>
+soon s o o n <space>
+spared s p a r e d <space>
+spring. s p r i n g . <space>
+stafford s t a f f o r d <space>
+stay s t a y <space>
+stephens s t e p h e n s <space>
+stew s t e w <space>
+stewartss: s t e w a r t s s : <space>
+stocing s t o c i n g <space>
+ston s t o n <space>
+stores s t o r e s <space>
+strict s t r i c t <space>
+strong s t r o n g <space>
+subaltern s u b a l t e r n <space>
+submit s u b m i t <space>
+such s u c h <space>
+suf s u f <space>
+suffer s u f f e r <space>
+sufficient s u f f i c i e n t <space>
+suits s u i t s <space>
+sunday s u n d a y <space>
+support s u p p o r t <space>
+suppose s u p p o s e <space>
+surgeon s u r g e o n <space>
+sustained s u s t a i n e d <space>
+tae t a e <space>
+tain t a i n <space>
+taing t a i n g <space>
+ted t e d <space>
+ten t e n <space>
+tences t e n c e s <space>
+tents t e n t s <space>
+ter. t e r . <space>
+terms t e r m s <space>
+ters t e r s <space>
+than t h a n <space>
+that t h a t <space>
+the t h e <space>
+their t h e i r <space>
+theirs t h e i r s <space>
+them t h e m <space>
+them. t h e m . <space>
+them; t h e m ; <space>
+there t h e r e <space>
+there. t h e r e . <space>
+these t h e s e <space>
+they t h e y <space>
+thin t h i n <space>
+things t h i n g s <space>
+this t h i s <space>
+those t h o s e <space>
+thoughts. t h o u g h t s . <space>
+thousand t h o u s a n d <space>
+through t h r o u g h <space>
+ties t i e s <space>
+time t i m e <space>
+times t i m e s <space>
+tion t i o n <space>
+to t o <space>
+told t o l d <space>
+too t o o <space>
+tools t o o l s <space>
+town t o w n <space>
+tracted t r a c t e d <space>
+trade t r a d e <space>
+treasu t r e a s u <space>
+trouble t r o u b l e <space>
+trusty t r u s t y <space>
+tually t u a l l y <space>
+turn t u r n <space>
+twenty t w e n t y <space>
+twice t w i c e <space>
+two t w o <space>
+under u n d e r <space>
+understand u n d e r s t a n d <space>
+unfit u n f i t <space>
+until u n t i l <space>
+up u p <space>
+up; u p ; <space>
+upon u p o n <space>
+use u s e <space>
+useful u s e f u l <space>
+vefsel v e f s e l <space>
+very v e r y <space>
+virginia v i r g i n i a <space>
+viz. v i z . <space>
+waggener w a g g e n e r <space>
+waggon w a g g o n <space>
+waggons w a g g o n s <space>
+wait w a i t <space>
+want w a n t <space>
+wanted w a n t e d <space>
+wanting w a n t i n g <space>
+warrants w a r r a n t s <space>
+was w a s <space>
+washington w a s h i n g t o n <space>
+way w a y <space>
+we w e <space>
+well w e l l <space>
+were w e r e <space>
+what w h a t <space>
+when w h e n <space>
+where w h e r e <space>
+which w h i c h <space>
+while w h i l e <space>
+whither w h i t h e r <space>
+who w h o <space>
+whose w h o s e <space>
+will w i l l <space>
+williamsburgh w i l l i a m s b u r g h <space>
+williamsburgh. w i l l i a m s b u r g h . <space>
+williamsburghs: w i l l i a m s b u r g h s : <space>
+wilper w i l p e r <space>
+win w i n <space>
+winches w i n c h e s <space>
+winchester w i n c h e s t e r <space>
+winchesters: w i n c h e s t e r s : <space>
+windows w i n d o w s <space>
+winter. w i n t e r . <space>
+with w i t h <space>
+with. w i t h . <space>
+with; w i t h ; <space>
+within w i t h i n <space>
+without w i t h o u t <space>
+would w o u l d <space>
+written w r i t t e n <space>
+yet y e t <space>
+you y o u <space>
+you. y o u . <space>
+you; y o u ; <space>
+your y o u r <space>
+yourself y o u r s e l f <space>
+zlement z l e m e n t <space>

@@ -1,1 +1,1 @@
-../Corpus_clean_lines/277_r1_l18.txt
+../../data/data_train_rodrigo_vocab_clean/277_r1_l18.txt

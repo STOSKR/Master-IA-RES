@@ -1,0 +1,1 @@
+../../data/data_train_rodrigo_vocab_clean/278_r1_l28.txt
